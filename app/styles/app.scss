@@ -42,3 +42,25 @@ body {
 .favorite-button {
   margin-top: 20px;
 }
+
+.rating-box {
+  border: black solid 2px;
+}
+
+// star rating styling
+
+.star-rating-selection {
+  text-indent: 10px;
+  font-size: 14pt;
+  color: black;
+}
+
+.star-rating-selection:hover {
+  cursor: pointer;
+  color: #ff5722;
+}
+
+.selected-stars {
+  color: #ff5722;
+  text-indent: 10px;
+}
