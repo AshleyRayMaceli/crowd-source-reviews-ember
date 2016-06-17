@@ -1,16 +1,17 @@
 <nav>
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">CSR</a>
+    <a class='navbar-brand' href='/'>HIKE</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-      <li>{{#link-to 'hike'}}Hikes{{/link-to}}</li>
+      <li>{{#link-to 'oregon'}}Oregon{{/link-to}}</li>
       <li>{{#link-to 'admin'}}Admin Access{{/link-to}}</li>
       <li>{{#link-to 'index'}}Favorites{{/link-to}}</li>
     </ul>
   </div>
 </nav>
 
-{{outlet}}
+  {{outlet}}
+
 
 {{!-- ember-cli-materialize modal container --}}
 {{md-modal-container}}

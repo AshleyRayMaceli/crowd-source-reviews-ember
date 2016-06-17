@@ -7,7 +7,16 @@ $roboto-font-path: '../assets/';
 // ember-cli-materialize styles
 @import 'ember-cli-materialize';
 
+body {
+  text-align: center;
+}
+
 .all-hike-imgs {
-  width: 100%;
+  width: 350px;
   height: 200px;
+}
+
+.hike-detail-image {
+  width: 500px;
+  height: 300px;
 }
