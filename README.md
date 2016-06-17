@@ -1,7 +1,16 @@
-# Crowd-sourced-reviews
+# Crowd Sourced Review Site
+## By Ashley Maceli - Epicodus 2016
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A crowd source review Ember web app for different hiking trails and parks in the Pacific North West.
+
+## Description
+
+A web app made with Ember 2 that simulates a crow source review site. Uses Google Firebase to store data for hikes and ratings. Hikes and ratings have a one-to-many relationship respectively. Hikes are sorted into different routes/components based on location through the use of Firebase queries. Ratings may be added to a hike detail page with star ratings. Users may add hikes to their favorites page.
+
+## Known Bugs
+
+_averageRating() method works but is asynchronous, only displays correct star rating after trying to visit a hike detail page a second time._
+_Currently, user may add same hike to their favorites page multiple times_
 
 ## Prerequisites
 
@@ -19,6 +28,7 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `ember install emberfire`
 
 ## Running / Development
 
@@ -39,9 +49,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
@@ -51,3 +58,26 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### License
+
+The MIT License (MIT)
+
+Copyright (c) 2016 - Ashley Maceli
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
