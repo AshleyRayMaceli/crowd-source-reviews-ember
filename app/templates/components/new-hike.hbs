@@ -1,1 +1,48 @@
-{{yield}}
+<form>
+  <h2>Add Hiking Trail</h2>
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-4">
+        <h5>Trail Name:</h5>
+      </div>
+      <div class="col-xs-8">
+        {{input value=name id="name"}}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-4">
+        <h5>Location:</h5>
+      </div>
+      <div class="col-xs-8">
+        {{input value=location id="location"}}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-4">
+        <h5>Description:</h5>
+      </div>
+      <div class="col-xs-8">
+        {{textarea value=description id="description" class="materialize-textarea"}}
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-xs-4">
+        <h5>Image URL:</h5>
+      </div>
+      <div class="col-xs-8">
+        {{input value=image id="image"}}
+      </div>
+    </div>
+  </div>
+
+  <button class="item-button waves-effect waves-light btn" {{action 'saveHike'}}>Add Hike</button>
+</form>

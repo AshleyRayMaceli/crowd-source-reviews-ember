@@ -4,6 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'crowd-sourced-reviews',
     environment: environment,
+    firebase: {
+      apiKey: "AIzaSyAMro7mXlJukDiS19b8cbZxQhuEJCun4yk",
+      authDomain: "crowd-source-reviews.firebaseapp.com",
+      databaseURL: "https://crowd-source-reviews.firebaseio.com",
+      storageBucket: "crowd-source-reviews.appspot.com",
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
