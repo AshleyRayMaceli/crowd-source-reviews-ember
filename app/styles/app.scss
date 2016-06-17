@@ -11,10 +11,32 @@ $roboto-font-path: '../assets/';
 
 body {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.front-page-image {
+  height: 800px;
+  background-image: url('/mountain.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    padding-top: 220px;
+    color: white;
+  }
 }
 
 .nav-wrapper {
   @extend .light-green, .darken-1;
+  a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.navbar-brand {
+  font-size: 18pt;
 }
 
 .inline {
@@ -28,7 +50,31 @@ body {
   height: 200px;
 }
 
+.hike-tile-box {
+  width: 400px;
+  border: lightgrey solid 5px;
+  background-color: darkgrey;
+  margin-top: 30px;
+  padding: 20px;
+  overflow: hidden;
+  .hike-tile-box:hover {
+    color: black;
+  }
+  .hike-name {
+    color: black;
+    padding-bottom: 10px;
+  }
+}
+
 // hike details page
+
+.hike-detail-columns {
+  padding: 20px;
+}
+
+.hike-detail-row {
+  margin-top: 40px;
+}
 
 .hike-detail-image {
   width: 500px;
@@ -44,7 +90,10 @@ body {
 }
 
 .rating-box {
-  border: black solid 2px;
+  border: black solid 4px;
+  height: 260px;
+  padding: 20px;
+  overflow: hidden;
 }
 
 // star rating styling
