@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('hike', {path: '/hike/:hike_id'});
   this.route('oregon');
   this.route('washington');
+  this.route('favorites');
 });
 
 export default Router;

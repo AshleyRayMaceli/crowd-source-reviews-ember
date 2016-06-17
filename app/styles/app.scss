@@ -7,16 +7,34 @@ $roboto-font-path: '../assets/';
 // ember-cli-materialize styles
 @import 'ember-cli-materialize';
 
+// application
+
 body {
   text-align: center;
 }
+
+.nav-wrapper {
+  @extend .light-green, .darken-1;
+}
+
+// oregon and washington routes
 
 .all-hike-imgs {
   width: 350px;
   height: 200px;
 }
 
+// hike details page
+
 .hike-detail-image {
   width: 500px;
   height: 300px;
+}
+
+.new-rating-form {
+  margin-bottom: 40px;
+}
+
+.favorite-button {
+  margin-top: 20px;
 }
