@@ -9,8 +9,8 @@ A web app made with Ember 2 that simulates a crow source review site. Uses Googl
 
 ## Known Bugs
 
-_averageRating() method works but is asynchronous, only displays correct star rating after trying to visit a hike detail page a second time._
-_Currently, user may add same hike to their favorites page multiple times_
+* averageRating() method works but is asynchronous, only displays correct star rating after trying to visit a hike detail page a second time.
+* Currently, user may add same hike to their favorites page multiple times.
 
 ## Prerequisites
 
