@@ -11,7 +11,7 @@ A crowd source review Ember web app for different hiking trails and parks in the
 
 ## Description
 
-A web app made with Ember 2 that simulates a crow source review site. Uses Google Firebase to store data for hikes and ratings. Hikes and ratings have a one-to-many relationship respectively. Hikes are sorted into different routes/components based on location through the use of Firebase queries. Ratings may be added to a hike detail page with star ratings. Users may add hikes to their favorites page.
+A web app made with Ember 2 that simulates a crow source review site. Uses Google Firebase to store data for hikes and ratings. Hikes and ratings have a one-to-many relationship respectively. Hikes are sorted into different routes/components based on location through the use of Firebase queries. Ratings may be added to a hike detail page with star ratings. Star ratings are calculated to an average rating that is displayed for each hike. Users may add hikes to their favorites page.
 
 ## Known Bugs
 
