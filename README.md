@@ -1,3 +1,9 @@
+![Home Page] (screenshot1.png)
+
+![Individual hike page] (screenshot2.png)
+
+![Ratings] (screenshot3.png)
+
 # Crowd Sourced Review Site
 ## By Ashley Maceli - Epicodus 2016
 
@@ -23,7 +29,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/AshleyRayMaceli/crowd-source-reviews-ember.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -47,7 +53,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
 
 ## Further Reading / Useful Links
 
